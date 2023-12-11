@@ -59,7 +59,7 @@ export default function App(){
         <Route path='/' element={<Home/>} />
         <Route path='/:mediaType/:id' element={<Details/>} />
         <Route path='/search/:query' element={<SearchResult/>} />
-        <Route path='/explore/:mediType' element={<Explore/>} />
+        <Route path='/explore/:mediaType' element={<Explore/>} />
         <Route path='*' element={<ErrorPage/>} />
       </Routes>
       <Footer />
