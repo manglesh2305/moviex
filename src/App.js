@@ -6,13 +6,13 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import {getApiConfiguration, getGenres} from './store/homeSlice';
 
-import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
-import Home from "./pages/home/home";
-import Details from "./pages/details/details";
-import ErrorPage from "./pages/404/errorPage";
-import Explore from "./pages/explore/explore";
-import SearchResult from "./pages/searchResult/searchResult";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Home from "./pages/home/Home";
+import Details from "./pages/details/Details";
+import ErrorPage from "./pages/404/PageNotFound";
+import Explore from "./pages/explore/Explore";
+import SearchResult from "./pages/searchResult/SearchResult";
 
 export default function App(){
 

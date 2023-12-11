@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import dayjs from "dayjs";
 
-import ContentWrapper from "../contentWrapper/contentWrapper";
-import Img from "../lazyLoadImage/img";
+import ContentWrapper from "../contentWrapper/ContentWrapper";
+import Img from "../lazyLoadImage/Img";
 import PosterFallback from "../../Assets/Moviex-images/no-poster.png";
-import CircleRating from "../circleRating/circleRating";
-import Genres from "../genres/genres";
+import CircleRating from "../circleRating/CircleRating";
+import Genres from "../genres/Genres";
 
 import "./style.scss";
 

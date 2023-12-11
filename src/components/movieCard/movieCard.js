@@ -4,9 +4,9 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 import "./style.scss";
-import Img from "../lazyLoadImage/img";
-import CircleRating from "../circleRating/circleRating";
-import Genres from "../genres/genres";
+import Img from '../lazyLoadImage/Img';
+import CircleRating from "../circleRating/CircleRating";
+import Genres from "../genres/Genres";
 import PosterFallback from "../../Assets/Moviex-images/no-poster.png";
 
 const MovieCard = ({ data, fromSearch, mediaType }) => {
