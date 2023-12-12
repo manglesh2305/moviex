@@ -23,6 +23,9 @@ export default function HeroBanner(){
             navigate(`/search/${query}`)
         }
     }
+    const searchButtonHandler = () => {
+            navigate(`/search/${query}`)
+    }
 
     return (
         <div className='heroBanner'>
@@ -43,7 +46,7 @@ export default function HeroBanner(){
                             onChange={(e)=>setQuery(e.target.value)}
                             onKeyUp={searchQueryHandler}
                         />
-                        <button>Search</button>
+                        <button onClick={searchButtonHandler}>Search</button>
                     </div>
                 </div>
             </ContentWrapper>
